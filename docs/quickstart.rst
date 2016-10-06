@@ -29,7 +29,7 @@ class.  You will need to instantiate a web3 instance.
 
 .. code-block:: python
 
-    >>> from web3 import Web, RPCProvider, IPCProvider
+    >>> from web3 import Web3, RPCProvider, IPCProvider
     >>> web3 = Web3(RPCProvider(host='localhost', port='8545'))
     # or for an IPC based connection
     >>> web3 = Web3(IPCProvider())
